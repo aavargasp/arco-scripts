@@ -131,6 +131,12 @@ echo "################################################################"
 echo;tput sgr0
 sudo systemctl enable sddm.service -f
 
+tput setaf 5;echo "################################################################"
+echo "Enabling libvrt socket"
+echo "################################################################"
+echo;tput sgr0
+sudo systemctl enable libvirtd.socket -f
+
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
 echo "################################################################"
