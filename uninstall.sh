@@ -35,6 +35,8 @@ echo "######################################################"
 tput sgr0
 echo
 
+rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/
+
 # sudo pacman -Rs --noconfirm linux-lts linux-lts-headers
 sudo pacman -Rs --noconfirm nomacs
 sudo pacman -Rs --noconfirm hardinfo-gtk3
