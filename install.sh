@@ -78,10 +78,12 @@ polkit-gnome
 python-psutil
 python-setuptools
 qtile
+rofi
 rofi-lbonn-wayland
-thunar
-thunar-archive-plugin
-thunar-volman
+# thunar
+# thunar-archive-plugin
+# thunar-volman
+pcmanfm-gtk3
 pipewire
 pipewire-pulse
 pipewire-alsa
@@ -102,10 +104,11 @@ playerctl
 alacritty
 arcolinux-alacritty-git
 # qemu-base
-qemu-full
+
+# qemu-full
 # quickemu
 # quickgui-bin
-virt-manager
+# virt-manager
 )
 
 count=0
