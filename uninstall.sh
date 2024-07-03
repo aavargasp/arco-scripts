@@ -39,7 +39,7 @@ echo
 sudo pacman -Rs --noconfirm nomacs
 sudo pacman -Rs --noconfirm hardinfo-gtk3
 # sudo pacman -Rs --noconfirm paru-bin
-sudo pacman -Rs --noconfirm yay-bin
+sudo pacman -Rs --noconfirm yay-git
 sudo pacman -Rs broadcom-wl-dkms --noconfirm
 sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
 sudo pacman -Rs --noconfirm archinstall

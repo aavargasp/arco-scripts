@@ -64,20 +64,21 @@ arcolinux-keyring
 arcolinux-powermenu-git
 arcolinux-mirrorlist-git
 arcolinux-paru-git
+fastfetch-git
 picom
 polkit-gnome
 xcb-util-cursor
 arcolinux-keyring
-arcolinux-qtile-git
-arcolinux-rofi-git
-arcolinux-rofi-themes-git
-dmenu
+# arcolinux-qtile-git
+# arcolinux-rofi-git
+# arcolinux-rofi-themes-git
 lxappearance
 picom
 polkit-gnome
 python-psutil
 python-setuptools
 qtile
+dmenu
 rofi
 rofi-lbonn-wayland
 # thunar
@@ -102,7 +103,7 @@ gst-plugins-ugly
 volumeicon
 playerctl
 alacritty
-arcolinux-alacritty-git
+# arcolinux-alacritty-git
 # qemu-base
 
 # qemu-full
