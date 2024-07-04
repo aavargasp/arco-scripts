@@ -129,7 +129,8 @@ echo;tput sgr0
 cp -Rf ~/.config ~/.install-config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 cp -arf /etc/skel/. ~
 
-tput setaf 5;echo "################################################################"
+tput setaf 5;
+echo "################################################################"
 echo "Enabling sddm as display manager"
 echo "################################################################"
 echo;tput sgr0

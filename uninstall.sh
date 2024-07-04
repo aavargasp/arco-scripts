@@ -35,36 +35,37 @@ echo "######################################################"
 tput sgr0
 echo
 
-rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/
 
-# sudo pacman -Rs --noconfirm linux-lts linux-lts-headers
 sudo pacman -Rs --noconfirm nomacs
 sudo pacman -Rs --noconfirm hardinfo-gtk3
-# sudo pacman -Rs --noconfirm paru-bin
 sudo pacman -Rs --noconfirm yay-git
-sudo pacman -Rs broadcom-wl-dkms --noconfirm
-sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
+sudo pacman -Rs --noconfirm broadcom-wl-dkms
+sudo pacman -Rs --noconfirm rtl8821cu-morrownr-dkms-git
 sudo pacman -Rs --noconfirm archinstall
-sudo pacman -Rs pragha --noconfirm
-sudo pacman -Rs lftp --noconfirm
-sudo pacman -Rs xf86-video-amdgpu --noconfirm
-sudo pacman -Rs xf86-video-fbdev --noconfirm
-sudo pacman -Rs xf86-video-openchrome --noconfirm
+sudo pacman -Rs --noconfirm pragha
+sudo pacman -Rs --noconfirm lftp
+
+
+sudo pacman -Rs --noconfirm xf86-video-amdgpu 
+sudo pacman -Rs --noconfirm xf86-video-fbdev
+sudo pacman -Rs --noconfirm xf86-video-openchrome
 if pacman -Qi xf86-video-vmware &> /dev/null; then
-  sudo pacman -Rs xf86-video-vmware --noconfirm
+  sudo pacman -Rs --noconfirm xf86-video-vmware
 fi
-sudo pacman -Rs xf86-video-ati --noconfirm
-sudo pacman -Rs xf86-video-nouveau --noconfirm
-sudo pacman -Rs xf86-video-vesa --noconfirm
+sudo pacman -Rs --noconfirm xf86-video-intel
+sudo pacman -Rs --noconfirm xf86-video-ati
+sudo pacman -Rs --noconfirm xf86-video-nouveau
+sudo pacman -Rs --noconfirm xf86-video-vesa
 sudo pacman -Rs --noconfirm xfce4-artwork
 sudo rm -rf /usr/share/backgrounds/xfce
 
 sudo pacman -Rs --noconfirm adobe-source-han-sans-cn-fonts
 sudo pacman -Rs --noconfirm adobe-source-han-sans-jp-fonts
 sudo pacman -Rs --noconfirm adobe-source-han-sans-kr-fonts
-# sudo pacman -Rs --noconfirm vim vim-runtime
+sudo pacman -Rs --noconfirm vim vim-runtime
 
+sudo pacman -Rs --noconfirm archlinux-tweak-tool-git
 sudo pacman -Rs --noconfirm arcolinux-gtk-surfn-arc-git
 sudo pacman -Rs --noconfirm arcolinux-desktop-trasher-git
-sudo pacman -Rs --noconfirm arcolinux-sddm-simplicity-git
-sudo pacman -Rs --noconfirm arcolinux-arc-dawn-git  
+sudo pacman -Rs --noconfirm arcolinux-arc-dawn-git
+rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/
